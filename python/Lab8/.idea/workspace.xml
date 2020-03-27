@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="162c8405-0ec6-4540-a240-e80da7e70b9a" name="Default Changelist" comment="" />
+    <list default="true" id="1cf11246-92b0-4ace-8205-4beb372230a4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1ZiEOTNAW6jM7R777RDa4TfPnNw" />
+  <component name="ProjectId" id="1ZaXBvlzCASM6MlF5CNj0DWLNlC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="162c8405-0ec6-4540-a240-e80da7e70b9a" name="Default Changelist" comment="" />
-      <created>1585313481290</created>
+      <changelist id="1cf11246-92b0-4ace-8205-4beb372230a4" name="Default Changelist" comment="" />
+      <created>1585078046982</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585313481290</updated>
+      <updated>1585078046982</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585320506717">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="558" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585081260596">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585320506717" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1585320510832">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="558" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1585081260596" />
+    <state x="495" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1585301884246">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1585320510832" />
+    <state x="495" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585301884246" />
   </component>
 </project>
