@@ -1,0 +1,290 @@
+a{
+    text-decoration: none; 
+    color: rgb(59,89,152);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 0;
+    background-color: #e7e8ec;
+}
+.header {   
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(59,89,152);
+    height: 15%;
+    width: 100%;
+    font-family: tahoma;
+    
+}
+.facebook {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 7%;
+    top:4%;
+    font-size:42px;
+    font-weight: bold;
+    z-index: 2;
+    color: ghostwhite;
+}
+#form {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    top:6%;
+    left: 52%;
+    border: 0.5px  black;
+    border-style: solid;
+}
+
+#email {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index:2;
+    top: 2.5%;
+    left:52%;
+    color: ghostwhite;
+    
+}
+#secrate {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index:2;
+    top: 2.5%;
+    left:75%;
+    color: ghostwhite;
+}
+#form2 {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    top:6%;
+    left: 75%;
+    border: 0.5px solid black;
+}
+#vhod {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.5px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    left: 89.5%;
+    top: 6.3%;
+    color: white;
+    background-color:rgb(36, 36, 230);
+}
+#forget {
+    font-size: 5.5px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index:2;
+    top: 10%;
+    left:75%;
+    color: ghostwhite;
+    color: rgb(125,153,211);
+}
+#face {
+    line-height: 32px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 7%;
+    top:18%;
+    font-size:10px;
+    font-weight: bold;
+    z-index: 1;
+}
+#risunok{
+        left: 7%;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        z-index: 1;
+        top: 33%;
+    }
+#regis {
+    color: black;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 105%;
+    left:117%;
+    font-size: 18px;
+}
+#regis1 {
+    color: black;
+    font-weight: normal;
+    position: absolute;
+    z-index: 2;
+    bottom: 89%;
+    left: 117%;
+    font-size: 20px;
+}
+#name {
+    height: 30px;
+    position: absolute;
+    z-index: 2;
+    bottom: 70%;
+    left: 117%;
+    font-size: 20px;
+    border-radius:5px;
+    border-color: rgb(141, 197, 248);
+}
+#name1 {
+    height: 30px;
+    position: absolute;
+    z-index: 2;
+    bottom: 70%;
+    left: 157.5%;
+    font-size: 20px;
+    border-radius:5px;
+    border-color: rgb(141, 197, 248);
+}
+#name2 {
+    height: 30px;
+    position: absolute;
+    z-index: 2;
+    bottom: 45%;
+    left: 117%;
+    font-size: 20px;
+    border-radius:5px;
+    border-color: rgb(141, 197, 248);
+}
+#name3 {
+    height: 30px;
+    position: absolute;
+    z-index: 2;
+    bottom: 20%;
+    left: 117%;
+    font-size: 20px;
+    border-radius:5px;
+    border-color: rgb(141, 197, 248);
+}
+#data {
+    position: absolute;
+    z-index: 2;
+    bottom: -8%;
+    font-weight: bold;
+    left: 117%;
+    color: gray;
+    font-size: 17px;
+}
+#data2 {
+    position: absolute;
+    z-index: 2;
+    bottom: -20%;
+    font-weight: bold;
+    left: 117%;
+    color: gray;
+    font-size: 17px;
+    border-radius: 3px;
+    border:0.5em solidwhite;
+}
+#malefemale {
+    position: absolute;
+    z-index: 2;
+    bottom: -45%;
+    font-weight: bold;
+    left: 117%;
+    color: gray;
+    font-size: 17px;
+}
+#woman {
+    position: absolute;
+    z-index: 2;
+    bottom: -52%;
+    font-weight: bold;
+    left: 117%;
+    color: gray;
+    font-size: 17px;
+}
+#woman1 {
+    position: absolute;
+    z-index: 2;
+    bottom: -63%;
+    left: 122%;
+    color:black;
+    font-size: 17px;
+}
+#man {
+    position: absolute;
+    z-index: 2;
+    bottom: -52%;
+    font-weight: bold;
+    left: 140%;
+    color: gray;
+    font-size: 17px;
+}
+#man1 {
+    position: absolute;
+    z-index: 2;
+    bottom: -63%;
+    left: 145%;
+    color:black;
+    font-size: 17px;
+}
+#another {
+    position: absolute;
+    z-index: 2;
+    bottom: -52%;
+    font-weight: bold;
+    left: 161%;
+    color: gray;
+    font-size: 17px;
+}
+#another1 {
+    position: absolute;
+    z-index: 2;
+    bottom: -63%;
+    left: 166%;
+    color:black;
+    font-size: 17px;
+}
+#information {
+    position: absolute;
+    z-index: 3;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    bottom: -90%;
+    font-weight: bold;
+    left: 117%;
+    color: gray; 
+}
+#register {
+    left: 116.9%;
+    position: absolute;
+    z-index: 4;
+    bottom: -120%;
+    width: 35%;
+    height: 20%;
+    border-color: rgb(5,129,46);
+    font-size: 17px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+
+    background-color: rgb(9,160,59);
+    font-weight: bold;
+    color: white;
+}
+#information2 {
+    position: absolute;
+    z-index: 4;
+    left: 117%;
+    font-size: 13px;
+    bottom: -165%;
+    color:  rgb(146, 146, 151);
+}

@@ -1,0 +1,194 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+a {
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+}
+#phon {
+    position: absolute;
+    z-index: 0;
+    border-width: 0.6px;
+    top: 4.3%;
+    width: 26.3%;
+    height: 100%;
+    border-style: solid;
+    background-color: white;
+    left: 51.5%;
+    border-color: rgb(201, 201, 201);
+}
+#reges {
+    position: absolute;
+    z-index: 1;
+    font-family: Arial, serif;
+    font-size: 30;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(148, 148, 148);
+    line-height: 1.2em;
+    left: 56%;
+    top: 20%;
+}
+#vhod {
+    position: absolute;
+    z-index: 1;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 4px;
+    height: 4.9%;
+    left: 55.2%;
+    top: 34.7%;
+    width: 20.5%;
+    background-color: rgb(73, 148, 233);
+}
+#or {
+    position: absolute;
+    z-index: 1;
+    font-family: Arial, serif;
+    color: rgb(148, 148, 148);
+    left: 64.5%;
+    top: 40%;
+    font-size: 40;
+}
+#telephone {
+    position: absolute;
+    z-index: 1;
+    font-size: 19;
+    border-style: solid;
+    border-width: 0.5px;
+    color: black;
+    border-radius: 2px;
+    left: 55.2%;
+    top: 49%;
+    border-color: rgb(233, 233, 233);
+    width: 20.5%;
+    height: 5%;
+    background-color: rgb(241, 241, 241);
+}
+#nameandsurname {
+    position: absolute;
+    z-index: 1;
+    font-size: 19;
+    border-style: solid;
+    border-width: 0.5px;
+    color: black;
+    border-radius: 2px;
+    left: 55.2%;
+    top: 55.5%;
+    border-color: rgb(233, 233, 233);
+    width: 20.5%;
+    height: 5%;
+    background-color: rgb(241, 241, 241);
+}
+#login {
+    position: absolute;
+    z-index: 1;
+    font-size: 19;
+    border-style: solid;
+    border-width: 0.5px;
+    color: black;
+    border-radius: 2px;
+    left: 55.2%;
+    top: 62.3%;
+    border-color: rgb(233, 233, 233);
+    width: 20.5%;
+    height: 5%;
+    background-color: rgb(241, 241, 241);
+}
+#secret {
+    position: absolute;
+    z-index: 1;
+    font-size: 19;
+    border-style: solid;
+    border-width: 0.5px;
+    color: black;
+    border-radius: 2px;
+    left: 55.2%;
+    top: 69%;
+    border-color: rgb(233, 233, 233);
+    width: 20.5%;
+    height: 5%;
+    background-color: rgb(241, 241, 241);
+}
+#reges2 {
+    position: absolute;
+    z-index: 1;
+    font-family: Arial, serif;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 4px;
+    height: 4.9%;
+    left: 55.2%;
+    top: 77%;
+    width: 20.5%;
+    background-color: rgb(73, 148, 233);  
+}
+#information {
+    position: absolute;
+    left: 57.7%;
+    top: 83%;
+    z-index: 1;
+    text-align: center;
+    color: rgb(148, 148, 148);
+    font-family: Arial, serif;
+    font-size: 13.5px;
+    line-height: 1.3em;
+}
+#have {
+    position: absolute;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    left: 60%;
+    top: 110%;
+}
+#account {
+    position: absolute;
+    background-color: white;
+    left: 51.5%;
+    border-style: solid;
+    z-index: 0;
+    border-width: 0.6px;
+    height: 10%;
+    top: 106%;
+    width: 26.3%;
+    border-color: rgb(206, 206, 206);
+}
+#ustanovka {
+    position: absolute;
+    z-index: 0;
+    top: 118%;
+    left: 58.5%;
+}
+#appstore {
+    position: absolute;
+    z-index: 0;
+    width: 12%;
+    top: 124%;
+    left: 53%;
+}
+#playmarket {
+    position: absolute;
+    z-index: 0;
+    width: 12%;
+    top: 124%;
+    left: 64.3%;
+}
+#instagram {
+    position: absolute;
+    z-index: 1;
+    left: 55.5%;
+    top: 11%;
+    width: 18%;
+    height: 10%;
+}
+#screen {
+    position: absolute;
+    z-index: 0;
+    width: 45%;
+    top: 7%;
+    left: 6.5%;
+}   

@@ -1,0 +1,95 @@
+body {
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#blackfon {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+   background-color: black;
+}
+#to {
+    top: 2%;
+    left: 5%;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    color:rgb(178, 180, 182);
+}
+
+#to4:active{
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 2px;
+    border-width: 6px;
+
+}
+#to4:hover{
+    background-color:rgb(58, 59, 134);
+    border: 2px solid rgb(58, 59, 134);
+    font-size: 14px;
+    border-radius: 2px;
+    border-width: 6px;
+}
+
+#to2 {
+    top: 100px;
+    left: 300px;
+    font-size: 20px;
+    position: relative;
+    color: black;
+}
+#to3 {
+    top: 130px;
+    left: 350px;
+    font-size: 20px;
+    position: relative;
+    color: black;
+    background-color: white;
+    border-color: thistle;
+    border-width: 1px;
+    width: 40%;
+    border-radius: 2px;
+}
+#to4 {
+    position: relative;
+    top: 127px;
+    left: 400px;
+    font-size: 14px;
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+    border-width: 6px;
+    border-color: blue;
+}
+#list {
+    top: 145px;
+    left: 350px;
+    font-size: 20px;
+    position: relative;
+    color: black;
+    background-color: white;
+    border-color: thistle;
+    border-width: 1px;
+    border-radius: 2px;
+
+}
+.any_task {
+    padding: 8px;
+    margin-top: 2px;
+    border: 1px solid black;
+    width: 600px;
+}
+.checkbox{
+    float: left;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 8px;
+}
+.del{
+    margin-top: -20px;
+    float: right;
+}

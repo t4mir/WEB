@@ -1,0 +1,202 @@
+body {
+    margin:0;
+    width: 100%;
+}
+a {
+    text-decoration: none; 
+    color: white;
+}
+
+#background {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 110%;
+} 
+#sign-up {
+    position: absolute;
+    z-index: 1;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    border-radius: 4px;
+    left: 92.7%;
+    border-style: solid;
+    top: 4%;
+    font-size: 18px;
+    background-color: rgb(31, 36, 42);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sign-in {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 18px;
+    left: 87.5%;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#find {
+    position: absolute;
+    z-index: 1;
+    width: 21%;
+    background-color: rgb(62, 66, 70);
+    border-radius: 3px;
+    border-style: none;
+    height: 5.5%;
+    left: 64.6%;
+    top: 3.7%;
+    border-style: solid;
+    border-color: rgb(62, 66, 70);
+    border-width: 8px;
+}
+.main {
+    left: 6%;
+    position: absolute;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
+    top: 1.7%;
+}
+#githubphoto {
+    position: absolute;
+    z-index: 1;
+    width: 3%;
+    top: 3%;
+    left: 1.5%;
+    height: 6.25%;
+}
+#whitebox {
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(246, 246, 255);
+    border-radius: 5px;
+    width: 32.5%;
+    top: 19%;
+    height: 80%;
+    left: 54.8%;
+}
+#username {
+    position: absolute;
+    z-index: 2;
+    color: rgb(31, 36, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size :14px;
+    font-weight: bold;
+    left: 56.5%;
+    top: 22%;
+    line-height: 2.5em;
+}
+#userbox {
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    width: 29%;
+    left: 56.5%;
+    height: 8%;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 3px;
+    font-size: 18px;
+}
+#email {
+    position: absolute;
+    z-index: 2;
+    color: rgb(31, 36, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    left: 56.5%;
+    top: 37%;
+    line-height: 2.5em;
+}
+#emailbox {
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    width: 29%;
+    left: 56.5%;
+    height: 8%;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 3px;
+    font-size: 18px;
+}
+#password {
+    position: absolute;
+    z-index: 2;
+    color: rgb(31, 36, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    left: 56.5%;
+    top: 51%;
+    line-height: 2.5em;
+}
+#passwordbox {
+    position: absolute;
+    z-index: 2;
+    top: 59%;
+    width: 29%;
+    left: 56.5%;
+    height: 8%;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 3px;
+    font-size: 18px;
+}
+#make {
+    position: absolute;
+    z-index:2 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.5px;
+    color: black;
+    left: 56.5%;
+    top: 67%;
+}
+.span {
+    color: cornflowerblue;
+}
+#signup {
+    position: absolute;
+    z-index: 2;
+    border-radius: 3px;
+    width: 29%;
+    height: 12%;
+    font-size: 16px;
+    background-color: rgb(47, 211, 74);
+    border-color: none;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    left: 56.5%;
+    font-weight: bold;
+    top: 80%;
+}
+#clicking {
+    position: absolute;
+    z-index: 2;
+    color: rgb(146, 146, 146);
+    font-family: Helvetica;
+    font-size: 10.5px;
+    left: 56.5%;
+    top: 93%;
+}
+#bulit {
+    position: absolute;
+    z-index: 1;
+    color:white;
+    font-family: Helvetica;
+    font-size: 70px;
+    left: 12.5%;
+    top: 26%;
+    line-height: 1em;
+}
+#bulit2 {
+    position: absolute;
+    z-index: 1;
+    font-family: Arial;
+    font-size: 21px;
+    color: rgb(146, 146, 146);
+    line-height: 1.3em;
+    left: 12.5%;
+    top: 58%;
+}
