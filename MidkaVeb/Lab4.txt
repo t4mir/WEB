@@ -1,0 +1,550 @@
+Anes Sakhiyev, [18.02.20 20:57]
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import {FormsModule} from '@angular/forms'
+import {RouterModule, Routes} from '@angular/router';
+
+import { AppComponent } from './app.component';
+import { TodosComponent } from './todos/todos.component';
+import { CarComponent } from './car/car.component'; 
+
+import { NgxImageZoomModule } from 'ngx-image-zoom';
+
+const appRoutes: Routes = [
+  {path: '', component:TodosComponent},
+  {path: 'car', component: CarComponent},
+]
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    TodosComponent,
+    CarComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    RouterModule.forRoot(appRoutes)
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+<router-outlet></router-outlet>
+=======================================================
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-car',
+  templateUrl: './car.component.html',
+  styleUrls: ['./car.component.css']
+})
+export class CarComponent implements OnInit {
+  
+  product: any;
+  city: string;
+  name: string;
+  model: string;
+  kuz: string;
+  color: string;
+  probeg: string;
+  Korobka: string;
+  rule: string;
+  Year: number; 
+  Ob: number;
+  money: number;
+  credit: number;
+  Anes: string;
+  Op: string='газ-бензин, КПП автомат,внедорожник, белый, металлик, люк, ветровики, рейлинги, спойлер,...';
+
+
+  constructor() { }
+
+  ngOnInit(): void {
+    this.Anes="http://web.whatsapp.com/send?text=<https://kolesa.kz/a/show/102189627>"
+    this.city='Нур-Султан';
+    this.kuz='Внедорожник';
+    this.name='Lexus';
+    this.rule='Слева';
+    this.model='LX470';
+    this.color='Черный';
+    this.probeg='240000km';
+    this.rule='Слева';
+    this.Korobka='Механика';
+    this.Year=2007;
+    this.Ob=4.7;
+    this.money=9200000;
+    this.credit=227388;
+    this.Op='У машины Казахстанские номера, но я с машиной в Грузии нахожусь.';
+  
+  }
+  
+  carSelect(carName){
+    if(carName=='LX470'){
+      this.Anes="http://web.whatsapp.com/send?text=<https://kolesa.kz/a/show/102189627>"
+    this.city='Нур-Султан';
+    this.kuz='Внедорожник';
+    this.name='Lexus';
+    this.rule='Слева';
+    this.model='LX470';
+    this.color='Черный';
+    this.probeg='240000km';
+    this.rule='Слева';
+    this.Korobka='Механика'
+    this.Year=2007;
+    this.Ob=4.7;
+    this.money=9200000;
+    this.credit=227388;
+  } else if (carName=='GS300') {
+    this.Anes="http://web.whatsapp.com/send?text=<https://kolesa.kz/a/show/102189627>"
+    this.city='Шымкент';
+    this.name='Lexus';
+    this.model='GS300';
+    this.kuz='Седан';
+    this.color='Черный';
+    this.probeg='100000km';
+    this.rule='Слева';
+    this.Korobka='Автомат'
+    this.Year=2011;
+    this.Ob=3.0;
+    this.money=6000000;
+    this.credit=187966;
+    this.Op='фиолетовый, ксенон, противотуманки, корректор фар, обогрев зеркал';
+  } else {
+    this.Anes="http://web.whatsapp.com/send?text=<https://kolesa.kz/a/show/102189627>"
+    this.city='Almaty';
+    this.name='Land Rover';
+    this.model='Range Rover';
+    this.kuz='Внедорожник';
+    this.color='Черный';
+    this.probeg='500000km';
+    this.rule='Слева';
+    this.Korobka='Типтроник'
+    this.Year=2010;
+    this.Ob=5.0;
+    this.money=5000000;
+    this.credit=120561;
+    this.Op='литые диски, тонировка, люк , ксенон, противотуманки, корректор фар, обогрев зеркал, дневные ходовые огни , комбинированный , CD-чейнджер, MP3, USB, DVD-чейнджер , полный электропакет, память сидений, центрозамок, память руля, климат-контроль';
+  }
+}
+
+}
+==================================================================
+<div class="container">
+    <h3 class="Kolesa">КОЛЁСА | КРЫША | MARKET</h3>
+    <h4 class="Kabinet"><a href="">Сообщения</a>
+     <a href="">Пополнить счёт</a> <a class="Anes">(0 ед.)</a> 
+  
+     <div class="dropdown">
+       <span><a href="">КАБИНЕТ?</a></span>
+       <div class="dropdown-content">
+         <p class="Feature"><strong>id18BD111060 <br> личный кабинет <br> №12345678</strong></p>
+         <hr>
+         <p>Мои обьявления</p>
+         <p>Настройки</p>
+         <hr>
+         <p>Выйти</p>
+       </div>
+     </div>
+     
+   </h4>
+ </div>
+ <div class="Kolesa1">
+    <h1>КОЛЁСА</h1>
+    <h5 class="Kolesa2"><a href="">Машины</a>
+      <a href="">Запчасти</a>
+      <a href="">Ремонт и услуги</a>
+      <a href="">Коммерческие</a>
+      <a href="">Прочее</a>
+      <a href="">Почитать</a>
+      <a href="">Оплата штрафов</a>
+    </h5>
+     <input class="Podat" type="button" name="Podat" value="+ Подать объявление">
+    </div>
+    <div class="Legko">
+        <a class="top" href="">Легковые</a>
+        <a class="top" href="">Автосалоны</a>
+        <a class="top" href="">Мототехника</a>
+        <a class="top" href="">Водный транспорт</a>
+      </div>
+      <h1 class="Land">{{name}} {{model}} {{Year}} года</h1>
+      <hr class="hr">
+      <h2 class="money"> {{money}} т</h2>
+      <div class="LandR">          
+           <p class="Napravo"><br><br>Город: {{city}}</p>
+           <p class="Napravo">Кузов: {{kuz}}</p>
+           <p class="Napravo">Объем двигателя, л: {{Ob}}</p>
+           <p class="Napravo">Пробег: {{probeg}}</p>
+           <p class="Napravo">Коробка передач: {{Korobka}}</p>
+           <p class="Napravo">Руль: {{rule}}</p>
+           <p class="Napravo">Цвет: {{color}}</p> 
+          </div>
+          <div class="op">
+             <p class="Op">Описание: {{Op}}</p>
+          </div>
+          <img name="img" src="https://astkt-photos-kl.kcdn.kz/83/83139ab5-21ee-47b8-8b29-390e8d460e76/1-750x470.jpg"  alt="Lexus LX470"  class="LXIMG">
+          <div class="Cars">
+            <button class="Anes" onclick="javascript:img.src='https://astkt-photos-kl.kcdn.kz/83/83139ab5-21ee-47b8-8b29-390e8d460e76/1-750x470.jpg'"  (click)="carSelect('LX470')">Lexus LX470</button>
+            <button class="Anes" onclick="javascript:img.src='https://shmkt-photos-kl.kcdn.kz/65/65fce8f2-5fe9-4f7c-b49f-8b5a0dc011be/1-750x470.jpg'" (click)="carSelect('GS300')">Lexus GS300</button>
+            <button class="Anes" onclick="javascript:img.src='https://shmkt-photos-kl.kcdn.kz/a4/a41e81b3-2832-4c69-b7c4-cd7bd24596b9/7-750x470.jpg'" (click)="carSelect('RR')">Range Rover</button>
+            </div>
+            <a href={{Anes}} target="_blank">
+            <button class="share">Отправить</button>
+            </a>
+
+=========================================================
+.container{
+    position: relative;
+    top: -20px;
+    left: -10px;
+    width: 1400px;
+    height: 35px;
+    background-color: white;
+}
+
+    .Kolesa{    
+    position: relative;
+    left: 100px;
+    color: black;
+    margin-top: 20px;
+    top: 5px;
+}
+    .Kabinet{
+        position: relative;
+        left: 900px;
+        top: -40px;
+        color: #06c;
+    }
+    a{
+        margin-left: 20px;
+    }
+    .Anes{
+        color: grey;
+        margin-left: 5px;
+    }
+    .dropdown {
+        position: relative;       
+        display: inline-block;
+        font-size: 18px;
+        color: #06c;
+        padding-left: 10px;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        color: #999;
+        min-width: 200px;
+       
+        z-index: 1;
+        font-size: 15px;
+      }
+      .Kolesa1{
+        position: relative;
+        top: -20px;
+        left: 90px;
+        color: black;
+        font-size: 21px;
+      }
+      .Kolesa2{
+          position: relative;
+          left: 190px;
+          top: -60px;
+          color: #06c;
+      }
+      .Podat{
+        position: relative;
+        left: 1050px;
+        top: -120px;
+        text-align: center;
+        height: 40px;
+        color: #06c;
+      }
+      .Legko{
+          position: relative;
+          height: 56px;
+          left: 90px;
+          top: -100px;
+          background-color: #fae8bb;
+          width: 1200px;
+      }
+      .top{
+          position: relative;
+         top: 15px;
+         color: #06c;
+      }
+      .LandR{
+        
+      position: relative;
+      height: 400px;
+      left: 90px;
+      top: -100px;
+      background-color: #fae8bb;
+      width: 400px;
+      border-radius: 5px;
+      }
+      .op{
+        position: relative;
+        height: 50px;
+        left: 90px;
+        top: -100px;
+        background-color: rgb(159, 207, 255);
+        width: 1200px;
+        border-radius: 5px;
+      }
+      .Land{
+       position: relative;
+       left: 90px;
+       top: -80px;
+      }
+      .hr{
+       position: relative;
+       left: 30px;
+       width: 1200px;
+       top: -80px;
+      }
+      .money{
+        position: relative;
+        left: 90px;
+        top: -80px;
+       }
+       .Napravo{
+           position: relative;
+           margin-left: 50px;
+           margin-bottom: 30px;
+       }
+       .LXIMG{
+        position: relative;
+        top: -600px;
+        left: 600px;
+        width: 600px;
+        height: 400px;
+     }
+     
+     .Cars{
+        position: relative;
+        left: 90px;
+        top: -500px;
+    }
+    .Op{
+        margin-left: 50px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .share{
+        width: 100px;
+        height: 30px;
+        position: relative;
+        left: 1150px;
+        bottom: 530px;
+        border-radius: 5px;
+    }
+    .Anes{
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+        color: black;
+    }
+=============================================================
+<div class="container">
+    <h3 class="Kolesa">КОЛЁСА | КРЫША | MARKET</h3>
+    <h4 class="Kabinet"><a href="">Сообщения</a>
+     <a href="">Пополнить счёт</a> <a class="Anes">(0 ед.)</a> 
+  
+     <div class="dropdown">
+       <span><a href="">КАБИНЕТ?</a></span>
+       <div class="dropdown-content">
+         <p class="Feature"><strong>id18BD111060 <br> личный кабинет <br> №12345678</strong></p>
+         <hr>
+         <p>Мои обьявления</p>
+         <p>Настройки</p>
+         <hr>
+         <p>Выйти</p>
+       </div>
+     </div>
+     
+   </h4>
+ </div>
+ <div class="Kolesa1">
+    <h1>КОЛЁСА</h1>
+    <h5 class="Kolesa2"><a href="">Машины</a>
+      <a href="">Запчасти</a>
+      <a href="">Ремонт и услуги</a>
+      <a href="">Коммерческие</a>
+      <a href="">Прочее</a>
+      <a href="">Почитать</a>
+      <a href="">Оплата штрафов</a>
+    </h5>
+     <input class="Podat" type="button" name="Podat" value="+ Подать объявление">
+    </div>
+    <div class="Legko">
+        <a class="top" href="">Легковые</a>
+        <a class="top" href="">Автосалоны</a>
+        <a class="top" href="">Мототехника</a>
+        <a class="top" href="">Водный транспорт</a>
+      </div>
+      <div class="LX470" *ngIf="Ob>4">
+        <img name="img" src="https://astkt-photos-kl.kcdn.kz/83/83139ab5-21ee-47b8-8b29-390e8d460e76/1-750x470.jpg"  alt="Lexus LX470" width="170" height="130" class="LXIMG">
+        <h5 class="Lexus"><a class="Aza" routerLink="/car">{{name}} {{model}}</a> <br> <a class="Opis">{{Year}} г.,  {{Ob}} л, {{probeg}}, {{Korobka}}, <br> {{Op}}</a>
+        <br><br><a class="Shym"> {{city}} <a>13 февраля</a> <a>4910 просмотров</a> <a>13 комментариев</a></a>
+        </h5>
+        <h3 class="Money"> {{money}} т <br><br> <a>в кредит</a> 
+        <div class="Credit">{{credit}} т/мес</div>
+        </h3>
+        </div>
+        <div class="Cars">
+        <button class="Anes" onclick="javascript:img.src='https://astkt-photos-kl.kcdn.kz/83/83139ab5-21ee-47b8-8b29-390e8d460e76/1-750x470.jpg'"  (click)="carSelect('LX470')">Lexus LX470</button>
+        <button class="Anes"  onclick="javascript:img.src='https://shmkt-photos-kl.kcdn.kz/65/65fce8f2-5fe9-4f7c-b49f-8b5a0dc011be/1-750x470.jpg'" (click)="carSelect('GS300')">Lexus GS300</button>
+        <button class="Anes" onclick="javascript:img.src='https://shmkt-photos-kl.kcdn.kz/a4/a41e81b3-2832-4c69-b7c4-cd7bd24596b9/7-750x470.jpg'" (click)="carSelect('RR')">Range Rover</button>
+        </div>
+
+==========================================================
+.container{
+    position: relative;
+    top: -20px;
+    left: -10px;
+    width: 1400px;
+    height: 35px;
+    background-color: white;
+}
+
+    .Kolesa{    
+    position: relative;
+    left: 100px;
+    color: black;
+    margin-top: 20px;
+    top: 5px;
+}
+    .Kabinet{
+        position: relative;
+        left: 900px;
+        top: -40px;
+        color: #06c;
+    }
+    a{
+        margin-left: 20px;
+    }
+    .Anes{
+        color: grey;
+        margin-left: 5px;
+    }
+    .dropdown {
+        position: relative;       
+        display: inline-block;
+        font-size: 18px;
+        color: #06c;
+        padding-left: 10px;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        color: #999;
+        min-width: 200px;
+       
+        z-index: 1;
+        font-size: 15px;
+      }
+      .Kolesa1{
+        position: relative;
+        top: -20px;
+        left: 90px;
+        color: black;
+        font-size: 21px;
+      }
+      .Kolesa2{
+          position: relative;
+          left: 190px;
+          top: -60px;
+          color: #06c;
+      }
+      .Podat{
+        position: relative;
+        left: 1050px;
+        top: -120px;
+        text-align: center;
+        height: 40px;
+        color: #06c;
+      }
+      .Legko{
+          position: relative;
+          height: 56px;
+          left: 90px;
+          top: -100px;
+          background-color: #fae8bb;
+          width: 1200px;
+      }
+      .top{
+          position: relative;
+         top: 15px;
+         color: #06c;
+      }
+      .LX470{
+          margin-top: 50px;
+        position: relative;
+        height: 150px;
+        left: 90px;
+        top: -100px;
+        background-color: #fae8bb;
+        width: 1200px;
+        border-radius: 5px;
+        }
+        .LXIMG{
+           position: relative;
+           top: 10px;
+           left: 10px;
+        }
+        .Lexus{
+            position: relative;
+            left: 200px;
+            color: #06c ;
+            font-size: 20px;
+            top: -150px;
+        }
+        .Opis{
+            margin-left: 0px;
+            color: black;
+            font-size: 16px;
+        }
+        .Money{
+            margin-right: 10px;
+            position: relative;            
+            text-align: right;
+            top: -290px;
+        }
+        .Credit{
+            margin-top: 10px;
+            border-radius: 5px;
+            text-align: center;
+            position: relative;
+            left: 1040px;
+            background-color: rgb(255, 230, 0);
+            width: 150px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .Shym{
+            margin-left: 0px;
+            color: rgb(138, 138, 138);
+            font-size:15px;
+        }
+        a.Shym{
+            margin-left: 10px;
+        }
+        .Cars{
+            position: relative;
+            left: 90px;
+            top: -50px;
+        }
+        .Aza{
+        margin-left: 0px;
+        }
+        .Anes{
+            border-radius: 5px;
+            width: 100px;
+            height: 30px;
+            color: black;
+        }

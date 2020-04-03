@@ -1,0 +1,8 @@
+<h2>Фильмы</h2>
+<ul>
+    <li *ngFor="let film of films">
+        <a routerLink="/films/{{film.id}}">
+          {{film.title}}
+        </a>
+    </li>
+</ul>

@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cf11246-92b0-4ace-8205-4beb372230a4" name="Default Changelist" comment="" />
+    <list default="true" id="aac7013d-72e9-49c8-b003-9c2ce1cba573" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1ZaXBvlzCASM6MlF5CNj0DWLNlC" />
+  <component name="ProjectId" id="1ZrIn34W7n22FFvej0PQP1cTPiD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1cf11246-92b0-4ace-8205-4beb372230a4" name="Default Changelist" comment="" />
-      <created>1585078046982</created>
+      <changelist id="aac7013d-72e9-49c8-b003-9c2ce1cba573" name="Default Changelist" comment="" />
+      <created>1585590950149</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585078046982</updated>
+      <updated>1585590950149</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585081260596">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1585591084990">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="558" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1585081260596" />
-    <state x="495" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1585301884246">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585591084990" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585591044537">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="495" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585301884246" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585591044537" />
   </component>
 </project>

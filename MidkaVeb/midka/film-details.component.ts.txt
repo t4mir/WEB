@@ -1,0 +1,29 @@
+import { Component, OnInit } from '@angular/core';
+import { Film} from '../film'
+import {FilmsService} from '../films.service'
+import {ActivatedRoute} from '@angular/router'
+@Component({
+  selector: 'app-film-details',
+  templateUrl: './film-details.component.html',
+  styleUrls: ['./film-details.component.css']
+})
+export class FilmDetailsComponent implements OnInit {
+  film:Film;
+  public viewCount : number = 0;
+  constructor(private filmsService: FilmsService,
+    private route: ActivatedRoute) { }
+
+  ngOnInit(): void {
+    this.viewCountInc();
+    this.getCity();
+    
+  }
+  getCity(){
+    const id = +this.route.snapshot.paramMap.get('id');
+    this.filmsService.getFilm(id)
+    .subscribe(film => this.film = film);
+  }
+  viewCountInc(){
+   this.viewCount++;
+  }
+}

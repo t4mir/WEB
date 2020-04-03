@@ -1,0 +1,9 @@
+    <div class="LX470" *ngFor="let car of cars">
+        <img name="img" src="{{car.img}}"  alt="Lexus LX470" width="170" height="130" class="LXIMG">
+        <h5 class="Lexus"><a class="Aza" [routerLink]="['/product', car.id]">{{car.name}} {{car.model}}</a> <br> <a class="Opis">{{car.Year}} г.,  {{car.Ob}} л, {{car.probeg}}, {{car.Korobka}}, <br> {{car.Op}}</a>
+        <br><br><a class="Shym"> {{car.city}} <a>13 феврал€</a> <a>4910 просмотров</a> <a>13 комментариев</a></a>
+        </h5>
+        <h3 class="Money"> {{car.money}} т <br><br> <a>в кредит</a> 
+        <div class="Credit">{{car.credit}} т/мес</div>
+        </h3>        
+    </div>

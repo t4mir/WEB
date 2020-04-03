@@ -1,0 +1,29 @@
+=====films.ts
+import {Film} from './film';
+export const FILMS: Film[]=[
+    {   id:1,
+        title:'Film1',
+        description:'Description1',
+        view_count:0
+    },
+    {   id:2,
+        title:'Film2',
+        description:'Description2',
+        view_count:0
+    },
+    {   id:3,
+        title:'Film3',
+        description:'Description3',
+        view_count:0
+    },
+    {   id:4,
+        title:'Film4',
+        description:'Description4',
+        view_count:0
+    },
+    {   id:5,
+        title:'Film5',
+        description:'Description5',
+        view_count:0
+    },
+]

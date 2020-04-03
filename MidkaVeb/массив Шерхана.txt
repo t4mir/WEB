@@ -1,0 +1,14 @@
+const categories = [
+  {
+     id: 1
+     name: “Computers”
+     products: [
+        {
+           id: 1024,
+           name: “Acer Predator”
+           description: “Imma Laptop”
+        }
+     ]
+  },
+  ...restOfCategories
+]

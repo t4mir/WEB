@@ -1,0 +1,33 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { FilmsComponent } from './films/films.component';
+import { FilmDetailsComponent } from './film-details/film-details.component';
+import { Routes, RouterModule } from '@angular/router';
+
+
+
+
+const routes:Routes = [
+  { path:'', redirectTo:'/films',pathMatch:'full'},
+  { path:'films',component:FilmsComponent},
+  { path:'films/:id',component:FilmDetailsComponent}
+];
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    FilmsComponent,
+    FilmDetailsComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    RouterModule.forRoot(routes)
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
