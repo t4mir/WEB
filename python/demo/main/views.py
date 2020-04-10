@@ -1,5 +1,5 @@
 from django.http.request import HttpRequest
-from django.http.response import HttpResponse,JsonResponse
+from django.http.response import HttpResponse, JsonResponse
  # import json если не использовать Jsonclass
 
 
