@@ -35,6 +35,7 @@ export class ProductsListComponent implements OnInit {
   addWish(){
       this.wishes.push(new Wish(this.name, this.price, this.category,this.os));
   }
-   
-   
+  removeWish() {
+    this.wishes.pop()
+  }
 }
