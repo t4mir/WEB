@@ -1,0 +1,386 @@
+
+  #back {
+    position: fixed;
+    background-color: rgb(255, 217, 50);
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 20%;
+    z-index: 3;
+  }
+  #wallpaper {
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    z-index: 1;
+  }
+  .imgs { 
+    position: absolute;
+    left: 3%;
+    top: 30%;
+  }
+  #back h1 {
+    color: white;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 15vh;
+    bottom: 50%;
+    position: relative;
+    z-index: 3;
+  }
+  .imags {
+    left: 3%;
+    top: 30%;
+    z-index: 2;
+    position: absolute;
+    background-color: rgb(235, 235, 235);
+    width: 40%;
+    height: 50%;
+    border-color: rgb(230, 198, 58);
+    border-style: solid;
+  }
+ 
+  #games {
+    position: absolute;
+    left: 67%;
+    top: 18%;
+  }
+  #games h2 {
+    font-family: 'Segoe UI', cursive;
+    position: relative;
+    font-size: 8vh;
+    z-index: 1;
+    color: white;
+  }
+  .line {
+    position: absolute;
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    border-width: 0.11vh;
+    left: 46%;
+    top: 20%;
+    height: 370%;
+  }
+  #lists li img {
+    position: relative;
+    width: 20%;
+    z-index: 2;
+    height: 20%;
+    transition: all 0.5s, ease 0.4s;
+  }
+  
+  #lists li img:hover {
+    border-radius: 50%;
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  #lists {
+    position: absolute;
+    top: 110%;
+    left: 47%;
+    list-style-type: none;
+  }
+  button {
+    position: relative;
+    background-color: rgb(230, 198, 58);
+    border-color: rgb(128, 128, 128);
+    border-style: solid;
+    border-width: 1%;
+    z-index: 2;
+    outline: none;
+  }
+  button:hover {
+    background-color: rgb(190, 164, 45);
+    cursor: pointer;
+  }
+  #desc {
+    position: relative;
+    background-color: rgb(247, 172, 35);
+    border-radius: 10%;
+    width: 80%;
+    border-color: white;
+    border-width: 2%;
+    border-style: solid;
+    height: 10vh;
+    z-index: 1;
+    opacity: 0.9;
+    text-align: end;
+    right: 10%;
+    float: right;
+  }
+  #logo {
+    position: fixed;
+    z-index: 1;
+    bottom: 80%;
+    left: 5%;
+  }
+  #telega {
+    position: fixed;
+    z-index: 1;
+    bottom: 82%;
+    width: 7%;
+    height: 14%;
+    left: 87%;
+  }
+  #lists li {
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', cursive;
+  }
+  #rating {
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+  * {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  #back {
+    position: fixed;
+    background-color: rgb(255, 217, 50);
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 20%;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .icons {
+    position: absolute;
+    top: 90%;
+    max-width: 100%;
+    z-index: 2;
+    left: 0%;
+  }
+  .icons img {
+    position: relative;
+    transition: all 1s ease .1s;
+    width: 30%;
+    height: 30%;
+  }
+  .icons img:hover {
+    transform: scale(1.1);
+  }
+  .names {
+    position: absolute;
+    top: 93%;
+    left: 11%;
+    z-index: 1;
+  }
+  .icons li p {
+    position: relative;
+    background-color: rgb(255, 217, 50);
+    width: 65%;
+    right: 5%;
+    z-index: 1;
+    height: 200%;
+    float: right;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 5vh;
+    font-style: italic;
+    border-color: rgb(219, 187, 42);
+    border-style: solid;
+    padding-bottom: 1%;
+  }
+  .slide1, .slide2, .slide3, .slide4, .slide5 {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    height: 50%;
+    top: 20%;
+    left: 0%;
+    border-bottom-color: rgb(255, 217, 50);
+    border-bottom-style: solid;
+    border-bottom-width: 2%;
+  }
+  .slide1 {
+    background: url(https://img3.goodfon.ru/wallpaper/nbig/5/1b/mount-blade-russian-games.jpg) no-repeat center;
+    background-size: cover;
+    animation: fade 16s infinite;
+    -webkit-animation:fade 16s infinite;
+  }
+  .slide2 {
+    background: url(https://lh3.googleusercontent.com/proxy/xIjbqi78KDARkPK1R454vxEqIzjDCcQhJajy-VwbDlS9NU94x1xDMSXRLI8MtL00GiQNKVt9QVFrEqdFaQKdSB7SKRjJwBLrnW6YTZyXg20_AABp6QjQ8Bk) no-repeat center;
+    background-size: cover;
+    animation:fade2 16s infinite;
+    -webkit-animation:fade2 16s infinite;
+  }
+  .slide3 {
+    background: url(https://img1.goodfon.ru/wallpaper/nbig/7/49/vedmak-vedmak-3-dikaya-ohota.jpg) no-repeat center;
+    background-size: cover;
+    animation:fade3 16s infinite;
+    -webkit-animation:fade3 16s infinite;
+  }
+  .slide4 {
+    background: url(https://www.1zoom.ru/big2/426/326859-alexfas01.jpg) no-repeat center;
+    background-size: cover;
+    animation:fade4 16s infinite;
+    -webkit-animation:fade4 16s infinite;
+  }
+  .slide5 {
+    background: url(https://i.pinimg.com/originals/3e/f7/72/3ef772538b7aa38bec9d8b17f2c2ea0e.jpg) no-repeat center;
+    background-size: cover;
+    animation:fade5 16s infinite;
+    -webkit-animation:fade5 16  s infinite;
+  }
+  @keyframes fade
+  {
+    0%   {opacity:1}
+    30% { opacity: 0}
+    50% { opacity: 0}
+    80% { opacity : 0}
+    90% { opacity: 0}
+    100% { opacity: 1}
+  }
+  @keyframes fade2
+  {
+    0%   {opacity:0}
+    30% { opacity: 1}
+    50% { opacity: 0}
+    80% { opacity : 0}
+    90% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade3
+  {
+    0%   {opacity:0}
+    30% { opacity: 0}
+    50% { opacity: 1}
+    80% { opacity : 0}
+    90% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade4
+  {
+    0%   {opacity:0}
+    30% { opacity: 0}
+    50% { opacity: 0}
+    80% { opacity : 1}
+    90% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade5
+  {
+    0%   {opacity:0}
+    30% { opacity: 0}
+    50% { opacity: 0}
+    80% { opacity : 0}
+    90% { opacity: 1}
+    100% { opacity: 0}
+  }
+  
+  #logo {
+    position: fixed;
+    z-index: 1;
+    bottom: 84%;
+    left: 5%;
+    flex-grow: 1;
+    width: 12%;
+    height: 12%;
+  }
+  #telega {
+    position: fixed;
+    z-index: 1;
+    bottom: 82%;
+    flex-grow: 1;
+    width: 7%;
+    height: 14%;
+    left: 87%;
+  }
+  
+  #back h1 {
+    color: white;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 80px;
+    bottom: 25%;
+    position: relative;
+    z-index: 3;
+    flex-grow: 2;
+  }
+  #games {
+    position: absolute;
+    font-family: 'Segoe UI';
+    font-size: 50px;
+    top: 70%;
+    z-index: 2;
+    left: 40%;
+    color: gray;
+  }
+.icons {
+    list-style-type: none;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+} 
+
+#form-group {
+  position: absolute;
+  z-index: 2;
+  line-height: 30%;
+  top: 125%;
+  width: 25%;
+  height: 80%;
+  border-color: white;
+  border-style: solid;
+  border-radius: 2%;
+  left: 15%;
+  background-color: rgb(219, 187, 42);
+}
+#forthesubscribers {
+  position: relative;
+  z-index: 2;
+  font-size: large;
+  font-family: 'Segoe UI', monospace;
+  line-height: 1.2em;
+}
+#form-group p {
+  position: relative;
+  text-align: center;
+  font-family: 'Segoe UI', monospace;
+  font-weight: bold;
+  font-size: large;
+}
+#form-group input, select, button {
+  top: 10%;
+  position: relative;
+  width: 90%;
+  height: 2.5em;
+  left: 5%; 
+}
+#form-group button {
+  position: relative;
+  z-index: 2;
+  font-family: 'Segoe UI', monospace;
+  font-size: larger;
+  text-align: center;
+  width: 80%;
+  left: 10%;
+  height: 20%;
+}
+#wishes {
+  position: absolute;
+  font-family: 'Segoe UI', monospace;
+  top: 200%;
+  z-index: 2;
+  left: 15%;
+  border-style: solid;
+  border-color: white;
+  width: 25%;
+  background-color: rgb(219, 187, 42);
+}
+#wishes h3 {
+  text-align: center;
+  font-size: large;
+}
+#wishes ul li {
+  font-family: 'Courier New', monospace;
+}

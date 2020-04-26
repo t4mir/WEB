@@ -16,6 +16,5 @@ urlpatterns = [
     path('companies/<int:company_id>/', viewsFBV.CompanyDetailsView),
     path('companies/<int:company_id>/vacancies/', viewsFBV.VacanciesListByCompany),
     path('vacancies/', viewsFBV.VacanciesListView),
-    path('vacancies/<int:vacancy_id>/', viewsCBV.VacancyDetailsView.as_view()),
-    path('vacancies/top_ten/', viewsCBV.TopTenVacanciesView.as_view())
+    path('vacancies/<int:vacancy_id>/', viewsCBV.VacancyDetailsView.as_view())
 ]

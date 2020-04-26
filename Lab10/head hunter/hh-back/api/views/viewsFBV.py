@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from api.models import Company, Vacancy
 from api.serializers import CompanySerializer, VacancySerializer, CompanyModelSerializer, VacancyModelSerializer
 
+
 @api_view(['GET', 'POST'])
 def CompanyListView(request):
     if request.method == 'GET':
@@ -18,6 +19,7 @@ def CompanyListView(request):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response({'error': serializer.errors},
                         status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
 
 @api_view(['GET', 'PUT', 'DELETE'])
 def CompanyDetailsView(request, company_id):
@@ -40,6 +42,7 @@ def CompanyDetailsView(request, company_id):
     elif request.method == 'DELETE':
         company.delete()
         return Response({'deleted': True})
+
 
 @api_view(['GET'])
 def VacanciesListByCompany(request, company_id):
@@ -87,6 +90,7 @@ def VacancyDetailsView(request, id):
         return Response("Deleted", status=status.HTTP_202_ACCEPTED)
     else:
         return Response("error", status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
 
 @api_view(['GET'])
 def TopTenVacanciesView(request):

@@ -1,0 +1,47 @@
+<img src = "https://images.alphacoders.com/845/845990.jpg" id = 'wallpaper'>
+
+<div>
+  <ul id = "lists">
+    <li *ngFor = "let game of games.products"> 
+      <a [title] = "game.name + ' details'"><img [src] = game.image></a><p id = "desc">{{ game.name }}</p>
+      <a href = 'https://web.telegram.org'><button onclick="showPrice()"> Share with the: {{game.name}} </button></a> <p id = "rating">Price for this game: {{game.salary}}</p>
+    </li>
+  </ul>
+</div>
+
+
+<div id = 'form-group'> 
+  <div>
+    <p id = 'forthesubscribers'>If you have to ask to add wish game, please fill the blank :) <br> Sincerely, GameStore administration. </p>
+  </div>
+  <div>
+      <p>Game title</p>
+      <input name="name" [(ngModel)]="name" />
+  </div>
+  <div>
+      <p>Price</p>
+      <input type="number" name="price" [(ngModel)]="price" />
+  </div>
+  <div>
+      <p>Category</p>
+      <select name="category" [(ngModel)]="category">
+          <option  *ngFor="let cate of categories" [value]="cate">
+              {{cate}}
+          </option>
+      </select>
+  </div>
+  <div>
+    <p>Operating System</p>
+    <input type="text" name="os" [(ngModel)]="os" />
+  </div>
+  <div>
+      <button (click)="addWish()">Add</button>
+      <button (click) = "removeWish()">Delete</button>
+  </div>
+</div>
+<div id = 'wishes'>
+  <h3>Wish games</h3>
+  <ul *ngFor="let p of wishes">
+      <li> Name: {{p.name}}, Price: {{p.price}} —— Category: {{p.category}}, OS: {{p.os}}</li>
+  </ul>
+</div>

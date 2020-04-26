@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor = 'let comp of companies'>
+        <a [routerLink] = "'/api/companies' + comp.id">{{comp.name}} </a>
+    </li>
+</ul>
