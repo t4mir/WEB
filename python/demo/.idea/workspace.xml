@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38578462-26cf-4f91-a174-2742ed4322ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/.idea/back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/.idea/back.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/api/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/api/views/viewsFBV.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/api/views/viewsFBV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab10/head hunter/hh-back/back/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab10/head hunter/hh-front" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab10/head hunter/hh-front" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +55,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project/project_back my" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -134,10 +125,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="401" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1586187046411" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1587861319352">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1587935035233">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587861319352" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587935035233" />
     <state width="1244" height="161" key="GridCell.Tab.0.bottom" timestamp="1587373359539">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -162,10 +153,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587250578960" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1587861283909">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1587935008331">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587861283909" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587935008331" />
     <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586434216642">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
